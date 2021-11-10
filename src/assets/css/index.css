@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
+
+@media (min-width: 1130px) {
+    .container {
+        max-width: 1130px;
+    }
+}
+
+.error-msg {
+    color: red;
+    font-size: 15px;
+    line-height: 20px;
+}
